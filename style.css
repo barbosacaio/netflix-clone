@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
+
+*{
+    font-family: Arial;
+}
+
+#PrimeiraParte{
+    background-image: url(Imagens/Wallpaper_Filmes.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 29.75cm;
+}
+
+#PrimeiraParte > img{
+    width: 170px;
+    height: 45px;
+    padding-left: 3.5%;
+    padding-top: 2%;
+}
+
+#PrimeiraParte > form{
+    display: inline;
+    float: right;
+}
+
+#entrar{
+    color: white;
+    background: rgb(236, 30, 30);
+    border-radius: 3px;
+    border-style: none;
+    height: 35px;
+    width: 80px;
+    margin-right: 1.75cm;
+    margin-top: 0.75cm;
+    font-size: 16px;
+}
+
+#PrimeiraParte > form > select{
+    border: solid white 1px;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+    margin-right: 0.8cm;
+    width: 115px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#PrimeiraParte > h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: IBM Plex Sans Arabic;
+    font-weight: 600;
+    margin-top: 4.3cm;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    line-height: 2cm;
+}
+
+#texto1{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 0.2cm;
+}
+
+#texto2{
+    color: white;
+    text-align: center;
+    margin-top: 1cm;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#email_submit{
+    margin: auto;
+    width: 74.5%;
+}
+
+#email{
+    height: 64px;
+    width: 495px;
+    font-size: 15px;
+    margin-right: 0;
+}
+
+#submit{
+    height: 70px;
+    border: none;
+    margin-left: -7px;
+    color: white;
+    background: rgb(201, 12, 12);
+    font-size: 25px;
+    font-weight: 550;
+    width: 230px;
+    letter-spacing: 1.5px;
+    transform: translateY(2.5px);
+}
